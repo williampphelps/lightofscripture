@@ -1,0 +1,295 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 3.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 240 10% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
+        --primary: 240 5.9% 10%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 240 4.8% 95.9%;
+        --secondary-foreground: 240 5.9% 10%;
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
+        --accent: 240 4.8% 95.9%;
+        --accent-foreground: 240 5.9% 10%;
+        --destructive: 0 72.22% 50.59%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 5.9% 90%;
+        --input: 240 5.9% 90%;
+        --ring: 240 5.9% 10%;
+        --radius: 0.5rem;
+    }
+    .dark {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
+        --card: 240 10% 3.9%;
+        --card-foreground: 0 0% 98%;
+        --popover: 240 10% 3.9%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 240 5.9% 10%;
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 240 3.7% 15.9%;
+        --muted-foreground: 240 5% 64.9%;
+        --accent: 240 3.7% 15.9%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+        --ring: 240 4.9% 83.9%;
+    }
+}
+
+/* White Glow - Names of God and Jesus Christ */
+.white-glow {
+    animation: white-glow 3s ease-in-out infinite alternate;
+}
+
+@keyframes white-glow {
+    from {
+        text-shadow:
+            0 0 10px #fff,
+            0 0 10px #fff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #fff,
+            0 0 30px #fff;
+    }
+}
+
+/* Blue Glow - Characteristics and Attributes */
+.blue-glow {
+    animation: blue-glow 3s ease-in-out infinite alternate;
+    color: #90d5ff;
+}
+
+@keyframes blue-glow {
+    from {
+        text-shadow:
+            0 0 10px #90d5ff,
+            0 0 10px #90d5ff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #90d5ff,
+            0 0 30px #90d5ff;
+    }
+}
+
+/* Yellow Glow - Covenants */
+.yellow-glow {
+    animation: yellow-glow 3s ease-in-out infinite alternate;
+    color: #ffff00;
+}
+
+@keyframes yellow-glow {
+    from {
+        text-shadow:
+            0 0 10px #ffff00,
+            0 0 10px #ffff00;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ffff00,
+            0 0 20px #ffff00;
+    }
+}
+
+/* Green Glow - Blessings and Promises */
+.green-glow {
+    animation: green-glow 3s ease-in-out infinite alternate;
+    color: #39ff14;
+}
+
+@keyframes green-glow {
+    from {
+        text-shadow:
+            0 0 10px #39ff14,
+            0 0 10px #39ff14;
+    }
+    to {
+        text-shadow:
+            0 0 10px #39ff14,
+            0 0 20px #39ff14;
+    }
+}
+
+/* Orange Glow - Warnings and Consequences of Sin */
+.orange-glow {
+    animation: orange-glow 3s ease-in-out infinite alternate;
+    color: #ff4500;
+}
+
+@keyframes orange-glow {
+    from {
+        text-shadow:
+            0 0 10px #ff4500,
+            0 0 10px #ff4500;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ff4500,
+            0 0 20px #ff4500;
+    }
+}
+
+/* Purple Glow - Repentance and Forgiveness */
+.purple-glow {
+    animation: purple-glow 3s ease-in-out infinite alternate;
+    color: #8a2be2;
+}
+
+@keyframes purple-glow {
+    from {
+        text-shadow:
+            0 0 10px #8a2be2,
+            0 0 10px #8a2be2;
+    }
+    to {
+        text-shadow:
+            0 0 10px #8a2be2,
+            0 0 20px #8a2be2;
+    }
+}
+
+/* Teal Glow - Holy Ghost and Spiritual Guidance */
+.teal-glow {
+    animation: teal-glow 3s ease-in-out infinite alternate;
+    color: #00ffff;
+}
+
+@keyframes teal-glow {
+    from {
+        text-shadow:
+            0 0 10px #00ffff,
+            0 0 10px #00ffff;
+    }
+    to {
+        text-shadow:
+            0 0 10px #00ffff,
+            0 0 20px #00ffff;
+    }
+}
+
+/* Gold Glow - Prophecies and Fulfillment of Prophecies */
+.gold-glow {
+    animation: gold-glow 3s ease-in-out infinite alternate;
+    color: #ffd700;
+}
+
+@keyframes gold-glow {
+    from {
+        text-shadow:
+            0 0 10px #ffd700,
+            0 0 10px #ffd700;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ffd700,
+            0 0 20px #ffd700;
+    }
+}
+
+/* Red Glow - Covenants and Ordinances */
+.red-glow {
+    animation: red-glow 3s ease-in-out infinite alternate;
+    color: #ff0000;
+}
+
+@keyframes red-glow {
+    from {
+        text-shadow:
+            0 0 10px #ff0000,
+            0 0 10px #ff0000;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ff0000,
+            0 0 20px #ff0000;
+    }
+}
+
+/* Pink Glow - Missionary Work and Sharing the Gospel */
+.pink-glow {
+    animation: pink-glow 3s ease-in-out infinite alternate;
+    color: #ff1493;
+}
+
+@keyframes pink-glow {
+    from {
+        text-shadow:
+            0 0 10px #ff1493,
+            0 0 10px #ff1493;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ff1493,
+            0 0 20px #ff1493;
+    }
+}
+
+/* Silver Glow - Scriptures about Zion or the Second Coming */
+.silver-glow {
+    animation: silver-glow 3s ease-in-out infinite alternate;
+    color: #c0c0c0;
+}
+
+@keyframes silver-glow {
+    from {
+        text-shadow:
+            0 0 10px #c0c0c0,
+            0 0 10px #c0c0c0;
+    }
+    to {
+        text-shadow:
+            0 0 10px #c0c0c0,
+            0 0 20px #c0c0c0;
+    }
+}
+
+/* Brown Glow - Historical Context or Key Events */
+.brown-glow {
+    animation: brown-glow 3s ease-in-out infinite alternate;
+    color: #8b4513;
+}
+
+@keyframes brown-glow {
+    from {
+        text-shadow:
+            0 0 10px #8b4513,
+            0 0 10px #8b4513;
+    }
+    to {
+        text-shadow:
+            0 0 10px #8b4513,
+            0 0 20px #8b4513;
+    }
+}
+
+/* Coral Glow - Personal Inspiration or Verses That Speak to You */
+.coral-glow {
+    animation: coral-glow 3s ease-in-out infinite alternate;
+    color: #ff6347;
+}
+
+@keyframes coral-glow {
+    from {
+        text-shadow:
+            0 0 10px #ff6347,
+            0 0 10px #ff6347;
+    }
+    to {
+        text-shadow:
+            0 0 10px #ff6347,
+            0 0 20px #ff6347;
+    }
+}
